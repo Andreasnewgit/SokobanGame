@@ -1,0 +1,41 @@
+body {
+  margin: 0px;
+  padding: 0px;
+  background-color: rgb(44, 42, 39);
+}
+
+.Tile {
+  display: inline-table;
+  width: 32px;
+  height: 32px;
+  margin: 0;
+}
+
+.tile-wall {
+  background-image: url("images/Wall.png");
+}
+
+.tile-space {
+  background-image: url("images/Floor.png");
+}
+
+.tile-goal {
+  background-image: url("images/Goal.png");
+}
+
+.entity-block {
+  background-image: url("images/Box.png");
+}
+
+.entity-player {
+  background-image: url("images/Player.png");
+}
+
+.entity-block-goal {
+  background-image: url("images/ScoreBox.png");
+}
+
+#sokobanBoard {
+  width: 608px;
+  height: 512px;
+}
